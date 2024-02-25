@@ -1,3 +1,4 @@
+import { MovingBorderBtn } from "@/components/moving-border";
 import Link from "next/link";
 
 export default function HeroSection() {
@@ -10,7 +11,7 @@ export default function HeroSection() {
                 </h1>
 
                 <p className="md:w-96 text-lg text-gray-300">
-                    {"Based in Cambodia, I'm a web developer passionate about building a modern web application that users love."}
+                    {"Based in localhost 📍, I'm a web developer passionate about building a modern web application that users love."}
                 </p>
 
                 <Link href={"mailto:test@gmail.com"} className="inline-block group">
@@ -36,6 +37,9 @@ export default function HeroSection() {
                     </div>
                     <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
                 </div>
+                <MovingBorderBtn>
+                    <p>Available for work</p>
+                </MovingBorderBtn>
             </div>
 
         </div>
