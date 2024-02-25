@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function HeroSection() {
     return (
-        <div className="min-h-[60] flex items-center justify-between">
+        <div className="min-h-[60] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between">
             {/* LEFT */}
-            <div className="space-y-8">
+            <div className="space-y-10 text-center lg:text-left">
                 <h1 className="text-4xl lg:text-7xl font-bold">Nice to meet you! 👋
                     <br /> <span className="underline underline-offset-8 decoration-green-500">{"I'm Sokheng."}</span>
                 </h1>
