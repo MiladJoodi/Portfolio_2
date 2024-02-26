@@ -30,9 +30,31 @@
 ### Cover:
 ![](https://s31.picofile.com/file/8472937876/screencapture_localhost_3000_202.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Contact to me
+  <a
+    href="https://www.linkedin.com/in/miladjoodi/"
+    target="blank"
+    ><img
+      align="center"
+      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+      alt="https://www.linkedin.com/in/miladjoodi/"
+      height="30"
+      width="40"
+  /></a>
+<a href="mailto:Winbeta.com@gmail.com" target="blank"
+    ><img
+      align="center"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png"
+      alt="miladjoodi"
+      height="27"
+      width="34"
+  /></a>
+  <a href="https://t.me/joodi_me" target="blank"
+    ><img
+      align="center"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/240px-Telegram_logo.svg.png"
+      alt="miladjoodi"
+      height="35"
+      width="35"
+  /></a>
+  
