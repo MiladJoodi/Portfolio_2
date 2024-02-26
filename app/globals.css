@@ -34,6 +34,8 @@
  
     --radius: 0.5rem;
   }
+
+  
  
   .dark {
     --background: 240 10% 3.9%;
@@ -80,4 +82,34 @@
     height: 0;
     border-radius: 50%;
     box-shadow: 0 0 200px 130px #c026d3;
+}
+
+
+
+body {
+  --sb-track-color: #232e33;
+  --sb-thumb-color: #365847;
+  --sb-size: 7px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+  border: 2px solid #232f22;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
 }
